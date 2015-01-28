@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B7F836B1A23D8F500317C78 /* AMPluginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7F836A1A23D8F500317C78 /* AMPluginFramework.framework */; };
+		9B7F836E1A23D92200317C78 /* CampaignMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F836D1A23D92200317C78 /* CampaignMonitor.m */; };
+		9B7F83711A23D9AC00317C78 /* CampaignMonitorConfigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F83701A23D9AC00317C78 /* CampaignMonitorConfigView.m */; };
+		9B7F83741A23DC0F00317C78 /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F83731A23DC0F00317C78 /* APIHelper.m */; };
+		9BA1BA791A28C518002A4F42 /* CampaignMonitor.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1BA781A28C518002A4F42 /* CampaignMonitor.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B42F03B1A23D8310091924C /* CampaignMonitor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampaignMonitor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B42F03F1A23D8310091924C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7F836A1A23D8F500317C78 /* AMPluginFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMPluginFramework.framework; sourceTree = "<group>"; };
+		9B7F836C1A23D92200317C78 /* CampaignMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignMonitor.h; sourceTree = "<group>"; };
+		9B7F836D1A23D92200317C78 /* CampaignMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignMonitor.m; sourceTree = "<group>"; };
+		9B7F836F1A23D9AC00317C78 /* CampaignMonitorConfigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignMonitorConfigView.h; sourceTree = "<group>"; };
+		9B7F83701A23D9AC00317C78 /* CampaignMonitorConfigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignMonitorConfigView.m; sourceTree = "<group>"; };
+		9B7F83721A23DC0F00317C78 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIHelper.h; path = API/APIHelper.h; sourceTree = "<group>"; };
+		9B7F83731A23DC0F00317C78 /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIHelper.m; path = API/APIHelper.m; sourceTree = "<group>"; };
+		9B7F83751A23DC6100317C78 /* APIProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIProtocol.h; path = API/APIProtocol.h; sourceTree = "<group>"; };
+		9BA1BA781A28C518002A4F42 /* CampaignMonitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CampaignMonitor.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B42F0381A23D8310091924C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7F836B1A23D8F500317C78 /* AMPluginFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B42F0321A23D8310091924C = {
+			isa = PBXGroup;
+			children = (
+				9B42F03D1A23D8310091924C /* CampaignMonitor */,
+				9B42F03C1A23D8310091924C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B42F03C1A23D8310091924C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B42F03B1A23D8310091924C /* CampaignMonitor.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B42F03D1A23D8310091924C /* CampaignMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				9BA1BA781A28C518002A4F42 /* CampaignMonitor.png */,
+				9B42F0451A23D8AC0091924C /* API */,
+				9B42F03E1A23D8310091924C /* Supporting Files */,
+				9B7F836C1A23D92200317C78 /* CampaignMonitor.h */,
+				9B7F836D1A23D92200317C78 /* CampaignMonitor.m */,
+				9B7F836F1A23D9AC00317C78 /* CampaignMonitorConfigView.h */,
+				9B7F83701A23D9AC00317C78 /* CampaignMonitorConfigView.m */,
+			);
+			path = CampaignMonitor;
+			sourceTree = "<group>";
+		};
+		9B42F03E1A23D8310091924C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F836A1A23D8F500317C78 /* AMPluginFramework.framework */,
+				9B42F03F1A23D8310091924C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B42F0451A23D8AC0091924C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F83721A23DC0F00317C78 /* APIHelper.h */,
+				9B7F83731A23DC0F00317C78 /* APIHelper.m */,
+				9B7F83751A23DC6100317C78 /* APIProtocol.h */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B42F03A1A23D8310091924C /* CampaignMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B42F0421A23D8310091924C /* Build configuration list for PBXNativeTarget "CampaignMonitor" */;
+			buildPhases = (
+				9B42F0371A23D8310091924C /* Sources */,
+				9B42F0381A23D8310091924C /* Frameworks */,
+				9B42F0391A23D8310091924C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampaignMonitor;
+			productName = CampaignMonitor;
+			productReference = 9B42F03B1A23D8310091924C /* CampaignMonitor.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B42F0331A23D8310091924C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = SpikedSoftware;
+				TargetAttributes = {
+					9B42F03A1A23D8310091924C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B42F0361A23D8310091924C /* Build configuration list for PBXProject "CampaignMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B42F0321A23D8310091924C;
+			productRefGroup = 9B42F03C1A23D8310091924C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B42F03A1A23D8310091924C /* CampaignMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B42F0391A23D8310091924C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA1BA791A28C518002A4F42 /* CampaignMonitor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B42F0371A23D8310091924C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7F836E1A23D92200317C78 /* CampaignMonitor.m in Sources */,
+				9B7F83741A23DC0F00317C78 /* APIHelper.m in Sources */,
+				9B7F83711A23D9AC00317C78 /* CampaignMonitorConfigView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B42F0401A23D8310091924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B42F0411A23D8310091924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B42F0431A23D8310091924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CampaignMonitor",
+				);
+				INFOPLIST_FILE = CampaignMonitor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9B42F0441A23D8310091924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CampaignMonitor",
+				);
+				INFOPLIST_FILE = CampaignMonitor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B42F0361A23D8310091924C /* Build configuration list for PBXProject "CampaignMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42F0401A23D8310091924C /* Debug */,
+				9B42F0411A23D8310091924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B42F0421A23D8310091924C /* Build configuration list for PBXNativeTarget "CampaignMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42F0431A23D8310091924C /* Debug */,
+				9B42F0441A23D8310091924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B42F0331A23D8310091924C /* Project object */;
+}
