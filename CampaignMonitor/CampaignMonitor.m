@@ -8,7 +8,7 @@
 
 #import "CampaignMonitor.h"
 #import "CampaignMonitorConfigView.h"
-#import "APIHelper.h"
+#import "APIHelperCM.h"
 
 const NSString *apikey_key = @"apikey";
 const NSString *clientlist_key = @"clientlist";
@@ -217,12 +217,12 @@ const NSString *defaultcampaignid_key = @"defaultcampaignid";
         if (emails.count == 1)
         {
             //Single
-            [APIHelper subscribeEmail:[emails objectAtIndex:0] toList:defaultListId withAPIKey:apiKey andDelegate:self];
+            [APIHelperCM subscribeEmail:[emails objectAtIndex:0] toList:defaultListId withAPIKey:apiKey andDelegate:self];
         }
         else
         {
             //Multiple
-            [APIHelper batchSubscribeEmail:emails toList:defaultListId withAPIKey:apiKey andDelegate:self];
+            [APIHelperCM batchSubscribeEmail:emails toList:defaultListId withAPIKey:apiKey andDelegate:self];
         }
         
         [[NSSound soundNamed:@"Hero"] play];

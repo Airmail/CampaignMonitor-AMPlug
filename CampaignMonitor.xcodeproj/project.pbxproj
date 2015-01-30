@@ -10,7 +10,7 @@
 		9B7F836B1A23D8F500317C78 /* AMPluginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7F836A1A23D8F500317C78 /* AMPluginFramework.framework */; };
 		9B7F836E1A23D92200317C78 /* CampaignMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F836D1A23D92200317C78 /* CampaignMonitor.m */; };
 		9B7F83711A23D9AC00317C78 /* CampaignMonitorConfigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F83701A23D9AC00317C78 /* CampaignMonitorConfigView.m */; };
-		9B7F83741A23DC0F00317C78 /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F83731A23DC0F00317C78 /* APIHelper.m */; };
+		9B7F83741A23DC0F00317C78 /* APIHelperCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F83731A23DC0F00317C78 /* APIHelperCM.m */; };
 		9BA1BA791A28C518002A4F42 /* CampaignMonitor.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1BA781A28C518002A4F42 /* CampaignMonitor.png */; };
 /* End PBXBuildFile section */
 
@@ -22,8 +22,8 @@
 		9B7F836D1A23D92200317C78 /* CampaignMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignMonitor.m; sourceTree = "<group>"; };
 		9B7F836F1A23D9AC00317C78 /* CampaignMonitorConfigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignMonitorConfigView.h; sourceTree = "<group>"; };
 		9B7F83701A23D9AC00317C78 /* CampaignMonitorConfigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignMonitorConfigView.m; sourceTree = "<group>"; };
-		9B7F83721A23DC0F00317C78 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIHelper.h; path = API/APIHelper.h; sourceTree = "<group>"; };
-		9B7F83731A23DC0F00317C78 /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIHelper.m; path = API/APIHelper.m; sourceTree = "<group>"; };
+		9B7F83721A23DC0F00317C78 /* APIHelperCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIHelperCM.h; path = API/APIHelperCM.h; sourceTree = "<group>"; };
+		9B7F83731A23DC0F00317C78 /* APIHelperCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIHelperCM.m; path = API/APIHelperCM.m; sourceTree = "<group>"; };
 		9B7F83751A23DC6100317C78 /* APIProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIProtocol.h; path = API/APIProtocol.h; sourceTree = "<group>"; };
 		9BA1BA781A28C518002A4F42 /* CampaignMonitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CampaignMonitor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,8 +82,8 @@
 		9B42F0451A23D8AC0091924C /* API */ = {
 			isa = PBXGroup;
 			children = (
-				9B7F83721A23DC0F00317C78 /* APIHelper.h */,
-				9B7F83731A23DC0F00317C78 /* APIHelper.m */,
+				9B7F83721A23DC0F00317C78 /* APIHelperCM.h */,
+				9B7F83731A23DC0F00317C78 /* APIHelperCM.m */,
 				9B7F83751A23DC6100317C78 /* APIProtocol.h */,
 			);
 			name = API;
@@ -157,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B7F836E1A23D92200317C78 /* CampaignMonitor.m in Sources */,
-				9B7F83741A23DC0F00317C78 /* APIHelper.m in Sources */,
+				9B7F83741A23DC0F00317C78 /* APIHelperCM.m in Sources */,
 				9B7F83711A23D9AC00317C78 /* CampaignMonitorConfigView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

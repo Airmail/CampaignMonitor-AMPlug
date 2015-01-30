@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface APIHelper : NSObject
+@interface APIHelperCM : NSObject
 
 +(void)getClientsWithAPIKey: (NSString *)apiKey andDelegate: (id)delegate;
 +(void)getCampaignsForClientId: (NSString *)clientId withAPIKey: (NSString *)apiKey andDelegate: (id)delegate;

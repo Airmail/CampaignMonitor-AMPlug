@@ -8,7 +8,7 @@
 
 #import "CampaignMonitorConfigView.h"
 #import "CampaignMonitor.h"
-#import "APIHelper.h"
+#import "APIHelperCM.h"
 
 @interface CampaignMonitorConfigView ()
 
@@ -170,7 +170,7 @@
 {
     NSString *apiKey = self.apiKey.stringValue;
     if (apiKey.length == 32)
-        [APIHelper getClientsWithAPIKey:apiKey andDelegate:self];
+        [APIHelperCM getClientsWithAPIKey:apiKey andDelegate:self];
     else
     {
         NSAlert *alert = [[NSAlert alloc] init];
@@ -189,7 +189,7 @@
         NSString *clientId = [[self.clientsAvailableList objectAtIndex:selectedClientIndex] objectForKey:@"ClientID"];
 
         NSString *apiKey = self.apiKey.stringValue;
-        [APIHelper getCampaignsForClientId:clientId withAPIKey:apiKey andDelegate:self];
+        [APIHelperCM getCampaignsForClientId:clientId withAPIKey:apiKey andDelegate:self];
     }
 }
 
